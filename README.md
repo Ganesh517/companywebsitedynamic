@@ -176,17 +176,6 @@ return true; }
 ## CODE VALIDATION REPORT:
 ![output](./static/img/ppp.gif)
 
-![output](./static/img/r2.png)
+## RESULT
 
-![output](./static/img/r3.png)
-
-![output](./static/img/r4.png)
-
-![output](./static/img/r5.jpg)
-## RESULT:
 Thus a website is designed for the chip manufacturing company and is hosted in the URL http://ganesh.student.saveetha.in:8000/. HTML code is validated.
-
-## OUTPUT:
-
-
-## RESULT:
