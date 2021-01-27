@@ -1,0 +1,30 @@
+ {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TATA PRIVATE LIMITED</title>
+    <link rel="stylesheet" href="{% static 'css/layout.css' %}">
+    <link rel = "icon" href ="{% static 'img/tata6.jpg' %}" type = "image/x-icone"> 
+</head>
+
+<body>
+    <div class="container">
+    <div class="banner">
+    </div>
+    <div class="menu">
+        <div class="menuitem"><a href="/home">Home</a></div> 
+        <div class="menuitem"><a href="/products">Products</a></div> 
+        <div class="menuitem"><a href="/people">people</a></div>
+        <div class="menuitem"><a href="/contactus">ContactUs</a></div> 
+    </div><div class="content">
+    {% block content %}    
+    {% endblock  %}
+    </div>
+    <div class="footer">
+        Copyright © TATA PRIVATE LIMITED, Developed by GANESH.
+    </div>
+    </div>
+</body>
+
+</html>
